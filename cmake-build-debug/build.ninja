@@ -67,6 +67,18 @@ build CMakeFiles/cppme.dir/5.cpp.obj: CXX_COMPILER__cppme_unscanned_Debug D$:/co
   OBJECT_DIR = CMakeFiles\cppme.dir
   OBJECT_FILE_DIR = CMakeFiles\cppme.dir
 
+build CMakeFiles/cppme.dir/6.cpp.obj: CXX_COMPILER__cppme_unscanned_Debug D$:/code/cppme/6.cpp || cmake_object_order_depends_target_cppme
+  DEP_FILE = CMakeFiles\cppme.dir\6.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\cppme.dir
+  OBJECT_FILE_DIR = CMakeFiles\cppme.dir
+
+build CMakeFiles/cppme.dir/7.cpp.obj: CXX_COMPILER__cppme_unscanned_Debug D$:/code/cppme/7.cpp || cmake_object_order_depends_target_cppme
+  DEP_FILE = CMakeFiles\cppme.dir\7.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\cppme.dir
+  OBJECT_FILE_DIR = CMakeFiles\cppme.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target cppme
@@ -75,7 +87,7 @@ build CMakeFiles/cppme.dir/5.cpp.obj: CXX_COMPILER__cppme_unscanned_Debug D$:/co
 #############################################
 # Link the executable cppme.exe
 
-build cppme.exe: CXX_EXECUTABLE_LINKER__cppme_Debug CMakeFiles/cppme.dir/3.7.cpp.obj CMakeFiles/cppme.dir/4.7.cpp.obj CMakeFiles/cppme.dir/5.cpp.obj
+build cppme.exe: CXX_EXECUTABLE_LINKER__cppme_Debug CMakeFiles/cppme.dir/3.7.cpp.obj CMakeFiles/cppme.dir/4.7.cpp.obj CMakeFiles/cppme.dir/5.cpp.obj CMakeFiles/cppme.dir/6.cpp.obj CMakeFiles/cppme.dir/7.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\cppme.dir
